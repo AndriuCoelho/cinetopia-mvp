@@ -109,11 +109,3 @@ extension FavoriteMoviesViewController: FavoriteMovieCollectionViewCellDelegate 
         collectionView.reloadData()
     }
 }
-
-struct FavoriteMoviesViewController_Previews: PreviewProvider {
-    static var previews: some View {
-        ViewControllerPreview {
-            FavoriteMoviesViewController()
-        }
-    }
-}
